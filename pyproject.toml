@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iterqueue"
+version = "0.0.1"
+authors = [{name="Karl Kuehn", email="kuehn.karl@gmail.com"}]
+description = "An easier-to-use queue.Queue subclass"
+readme = "README.md"
+requires-python = ">=3.2"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Boost Software License 1.0",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/larkost/iterqueue"
+"Bug Tracker" = "https://github.com/larkost/iterqueue/issues"
